@@ -1,12 +1,12 @@
-# 📦 Supply Chain Lead Time Optimization Analysis
+## 📦 Supply Chain Lead Time Optimization Analysis
 
-## 🔍 Overview
+### 🔍 Overview
 
 This project analyzes a supply chain dataset containing 250 rows and 10 columns, focused on supplier performance, inventory distribution, and delivery timelines. The primary objective is to identify inefficiencies, evaluate supplier reliability, and estimate cost savings from improving lead times.
 
 ---
 
-## 📊 Key Findings
+### 📊 Key Findings
 
 - **Order Distribution:** Orders span from January to April, with March being the busiest month (106 orders) and January the slowest (27 orders).
 - **Inventory Imbalance:** 
@@ -25,7 +25,7 @@ This project analyzes a supply chain dataset containing 250 rows and 10 columns,
 
 ---
 
-## 💸 Cost Simulation
+### 💸 Cost Simulation
 
 A **10% late delivery penalty** was applied to total cost for each late order. Then, a **10% improvement in lead times per supplier** was simulated.  
 This resulted in:
@@ -36,7 +36,7 @@ This resulted in:
 
 ---
 
-## ✅ Recommendations
+### ✅ Recommendations
 
 ### 🪑 1. Prioritize High-Risk Categories
 - **Furniture:** Establish buffer stocks closer to demand centers.
@@ -54,7 +54,6 @@ This resulted in:
 
 ---
 
-## 👨‍💼 Managerial Insight
 
 As a supply chain manager, I would:
 - Prioritize **forecasting accuracy** during peak demand months (e.g., March).
@@ -64,7 +63,7 @@ As a supply chain manager, I would:
 
 ---
 
-## 📁 Files
+### 📁 Files
 
 - `supply_chain_data.csv` – Raw dataset used
 - `supply_chain_analysis.ipynb` – Exploratory data analysis and simulation code
@@ -73,7 +72,7 @@ As a supply chain manager, I would:
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
@@ -81,16 +80,11 @@ As a supply chain manager, I would:
 
 ---
 
-## 📌 Notes
+### 📌 Notes
 
 - Lead times were recalculated using `delivery_date - order_date`.
 - Stockouts and late deliveries were analyzed per **warehouse**, **category**, and **supplier**.
 - Cost simulation was simplified using a flat 10% penalty model for demonstrative purposes.
 
 ---
-
-## 📬 Contact
-
-For questions or collaboration inquiries, please contact:  
-**Haritha Jampani** – [LinkedIn](https://www.linkedin.com/in/haritha-jampani/)
 
