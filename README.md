@@ -4,9 +4,8 @@
 
 This project analyzes a supply chain dataset containing 250 rows and 10 columns, focused on supplier performance, inventory distribution, and delivery timelines. The primary objective is to identify inefficiencies, evaluate supplier reliability, and estimate cost savings from improving lead times.
 
----
 
-### 📊 Key Findings
+### Key Findings
 
 - **Order Distribution:** Orders span from January to April, with March being the busiest month (106 orders) and January the slowest (27 orders).
 - **Inventory Imbalance:** 
@@ -23,9 +22,8 @@ This project analyzes a supply chain dataset containing 250 rows and 10 columns,
   - Most frequent in *Dallas*.
   - *Electronics* category was impacted the most, especially during March.
 
----
 
-### 💸 Cost Simulation
+### Cost Simulation
 
 A **10% late delivery penalty** was applied to total cost for each late order. Then, a **10% improvement in lead times per supplier** was simulated.  
 This resulted in:
@@ -36,17 +34,17 @@ This resulted in:
 
 ---
 
-### ✅ Recommendations
+### Recommendations
 
-### 🪑 1. Prioritize High-Risk Categories
+### 1. Prioritize High-Risk Categories
 - **Furniture:** Establish buffer stocks closer to demand centers.
 - **Electronics:** Implement a dynamic safety stock policy.
 
-### 🚚 2. Realign Supplier Strategy
+### 2. Realign Supplier Strategy
 - Shift orders away from Supplier A due to poor timeliness.
 - Encourage accountability via **penalties and performance incentives**.
 
-### 📦 3. Data-Driven Inventory Planning
+### 3. Data-Driven Inventory Planning
 - Introduce a **Reorder Point (ROP)** system:
   - Estimate average daily demand.
   - Add a 20% safety stock buffer.
@@ -63,7 +61,7 @@ As a supply chain manager, I would:
 
 ---
 
-### 📁 Files
+### Files
 
 - `supply_chain_data.csv` – Raw dataset used
 - `supply_chain_analysis.ipynb` – Exploratory data analysis and simulation code
@@ -72,7 +70,7 @@ As a supply chain manager, I would:
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
@@ -80,7 +78,7 @@ As a supply chain manager, I would:
 
 ---
 
-### 📌 Notes
+### Notes
 
 - Lead times were recalculated using `delivery_date - order_date`.
 - Stockouts and late deliveries were analyzed per **warehouse**, **category**, and **supplier**.
